@@ -460,6 +460,35 @@ footer {
     font-weight: 300;
     color: #374054;
 }
+#news {
+    padding: 50px 15px;
+    border-bottom: 1px solid #dcd9d9;
+    text-align: center;
+}
+
+#news h2 {
+    color: #374054;
+    margin-bottom: 50px;
+}
+
+#news .container {
+    text-align: left;
+}
+
+#news .row {
+    margin-bottom: 15px;
+}
+
+#news .news-date {
+    text-align: right;
+    color: #374054;
+    font-size: 1.0em;
+}
+
+#news .news-description {
+    color: #74808a;
+    font-size: 1.0em;
+}
 #education {
     padding: 50px 15px 20px 15px;
     border-bottom: 1px solid #dcd9d9;
