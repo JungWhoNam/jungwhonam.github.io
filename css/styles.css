@@ -136,7 +136,7 @@ header.sticky {
 }
 footer {
     padding: 50px 0;
-    background: #3498db;
+    background: #205b83;
 }
 .copyright {
     padding-top: 20px;
@@ -231,11 +231,12 @@ footer {
 }
 #lead {
     position: relative;
-    height: 100vh;
-    min-height: 500px;
-    max-height: 1080px;
-    background: url(../images/lead-bg-VR2019-down.jpg);
-    /* background: url(../images/lead-bg-BOOK2022-wings.jpg); */
+    height: 20vh;
+    min-height: 20px;
+    max-height: 80px;
+    background: #205b83;
+    /* background: url(../images/lead-bg-VR2019-down.jpg); */
+    /*background: url(../images/lead-bg-BOOK2022-wings.jpg);*/
     background-size: cover;
     background-position: center center;
     padding: 15px;
