@@ -25,6 +25,12 @@ for (let i = 0; i < accordions.length; i++) {
     // Remove no-js class
     $('html').removeClass('no-js');
 
+    // Auto-detect language
+    var userLang = navigator.language || navigator.userLanguage;
+    if (userLang && userLang.toLowerCase().indexOf('ko') > -1) {
+        $('html').addClass('ko');
+    }
+
     // Animate to section when nav is clicked
     $('header a').click(function(e) {
 
