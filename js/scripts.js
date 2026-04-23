@@ -103,4 +103,10 @@ for (let i = 0; i < accordions.length; i++) {
         });
     });
 
+    // Language Toggle
+    $('#lang-toggle').click(function(e) {
+        e.preventDefault();
+        $('html').toggleClass('ko');
+    });
+
 })(jQuery);

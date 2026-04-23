@@ -14,6 +14,15 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 16px;
 }
+.lang-ko {
+    display: none;
+}
+html.ko .lang-ko {
+    display: block;
+}
+html.ko .lang-en {
+    display: none;
+}
 body.active {
     overflow: hidden;
     z-index: -1;

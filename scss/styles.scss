@@ -48,6 +48,20 @@ $border: #dcd9d9;
 $heading: #374054;
 $text: #74808a;
 
+// Language Toggle Styles
+.lang-ko {
+    display: none;
+}
+
+html.ko {
+    .lang-ko {
+        display: block;
+    }
+    .lang-en {
+        display: none;
+    }
+}
+
 /*
     ---------------------
     ----- 2. Mixins -----
